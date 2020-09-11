@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+echo "USE ./extract_all.pl # updated 20200911. prev 20180718"
+exit 1
 set -e
 trap 'e=$?; [ $e -ne 0 ] && echo "$0 exited in error"' EXIT
 
